@@ -1,37 +1,160 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/rebeccanerini/ilbrucomaisazio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+    <meta charset="utf-8">
+    <title>🐛💭🍽- Il Bruco Maisazio</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        p {
+            font-size: 20px; font-family: sans-serif;
+        }
+        
+        h1 {
+            font-size: 80px; font-family: sans-serif;
+        }
+        
+        h2 {
+            font-size: 50px;
+        }
+        
 
-### Markdown
+    </style>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
 
-```markdown
-Syntax highlighted code block
+            $("#uovo").click(function () {
+                $(".uovo").show(); /* mostra testo */
+                $("#uovo").hide(); /* nascondi pulsante */
+            });
 
-# Header 1
-## Header 2
-### Header 3
+            $("#bruco").click(function () {
+                $(".bruco").show();
+                $("#bruco").hide();
+            });
+            
+              $("#ricerca").click(function () {
+                $(".ricerca").show();
+                $("#ricerca").hide();
+            });
 
-- Bulleted
-- List
+            $("#mela").click(function () {
+                $(".mela").show();
+                $("#mela").hide();
+            });
 
-1. Numbered
-2. List
+            $("#pere").click(function () {
+                $(".pere").show();
+                $("#pere").hide();
+            });
 
-**Bold** and _Italic_ and `Code` text
+            $("#prugne").click(function () {
+                $(".prugne").show();
+                $("#prugne").hide();
+            });
 
-[Link](url) and ![Image](src)
-```
+            $("#fragole").click(function () {
+                $(".fragole").show();
+                $("#fragole").hide();
+            });
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+            $("#arance").click(function () {
+                $(".arance").show();
+                $("#arance").hide();
+            });
 
-### Jekyll Themes
+            $("#tutto").click(function () {
+                $(".tutto").show();
+                $("#tutto").hide();
+            });
+            
+             $("#pancia").click(function () {
+                $(".pancia").show();
+                $("#pancia").hide();
+            });
+            
+             $("#foglia").click(function () {
+                $(".foglia").show();
+                $("#foglia").hide();
+            });
+            
+             $("#forte").click(function () {
+                $(".forte").show();
+                $("#forte").hide();
+            });
+            
+             $("#farfalla").click(function () {
+                $(".farfalla").show();
+                $("#farfalla").hide();
+            });
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rebeccanerini/ilbrucomaisazio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        });
+    </script>
+</head>
 
-### Support or Contact
+<body>
+    
+    <h1>Il Bruco Maisazio</h1>
+    
+    <h2>🌌🌛🌱🥚</h2>
+    <p class="uovo" hidden>Di notte, su una foglia illuminata dalla luna, c’era un piccolo uovo.</p>
+    <button id="uovo">Show</button>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    <h2>🌄☀️🐛💭🍽</h2>
+    <p class="bruco" hidden>Ma una bella domenica mattina, quando si levò il sole, caldo e splendente dall’uovo -crac!- uscì un piccolo bruco affamato.</p>
+    <button id="bruco">Show</button>
+    
+    <h2>🐛🚶🔍🍽</h2>
+    <p class="ricerca" hidden>…Subito si mise in cammino alla ricerca di cibo.</p>
+    <button id="ricerca">Show</button>
+
+    <h2>🍎🐛💭😕</h2>
+    <p class="mela" hidden>Lunedì mangiò una mela, ma non riuscì a saziarsi.</p>
+    <button id="mela">Show</button>
+
+    <h2>🍐🍐🐛💭😕</h2>
+    <p class="pere" hidden>Martedì mangiò due pere, ma non riuscì a saziarsi.</p>
+    <button id="pere">Show</button>
+
+    <h2>💜💜💜🐛💭😕</h2>
+    <p class="prugne" hidden>Mercoledì mangiò tre prugne, ma non riuscì a saziarsi.</p>
+    <button id="prugne">Show</button>
+
+    <h2>🍓🍓🍓🍓🐛💭😕</h2>
+    <p class="fragole" hidden>Giovedì mangiò quattro fragole, ma non riuscì a saziarsi.</p>
+    <button id="fragole">Show</button>
+
+    <h2>🍊🍊🍊🍊🍊🐛💭😕</h2>
+    <p class="arance" hidden>Venerdì mangiò cinque arance, ma non riuscì a saziarsi.</p>
+    <button id="arance">Show</button>
+
+    <h2>🍰🍦🥒🧀🥓🍭🍪🌭🍩🍉🐛💭😍</h2>
+    <p class="tutto" hidden>Sabato mangiò un dolce al cioccolato, un gelato, un cetriolo, un pezzo di formaggio, una fetta di salame, un lecca-lecca, una fetta di pandolce, una salsiccia, una pastina e una fetta di anguria.</p>
+    <button id="tutto">Show</button>
+    
+    <h2>🌙🐛🗯🤢‼️</h2>
+    <p class="pancia" hidden>Alla sera aveva il mal di pancia!</p>
+    <button id="pancia">Show</button>
+    
+    <h2>🌱🐛💭😊</h2>
+    <p class="foglia" hidden>Il giorno dopo era di nuovo domenica e il bruco si mise a mangiare una bella foglia verde. Si sentì subito meglio.</p>
+    <button id="foglia">Show</button>
+    
+    <h2>🐛💪</h2>
+    <p class="forte" hidden>Adesso non era più affamato, era proprio sazio.
+    E non era più tanto piccolo, ma era diventato grande e grosso.</p>
+    <button id="forte">Show</button>
+    
+    <h2>🏗🏠🐛➡️🦋</h2>
+    <p class="farfalla" hidden>Allora si costruì una casa molto stretta, chiamata bozzolo, e rimase là dentro per più di due settimane. Poi scavò un buco nel bozzolo, si sforzò di uscire e… Era diventato una meravigliosa farfalla!</p>
+    <button id="farfalla">Show</button>
+
+</body>
+
+</html>
